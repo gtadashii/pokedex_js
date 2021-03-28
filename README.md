@@ -8,3 +8,4 @@ To achive my goal two really cool Pokemon related APIs were used:
 + Pokémon (Pokeres) API - https://pokeres.bastionbot.org
 
 > Check it out!
+https://gtadashii.github.io/pokedex_js/
