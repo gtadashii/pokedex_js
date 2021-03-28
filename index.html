@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search_box">
+            <label for="search">Who is that Pokémon?</label>
+            <input type="text" name="search" id="search" placeholder="Search for a Pokémon">
+            <button onclick="search_pokemon()">Search</button>
+        </div>
+        <div class="card">
+            <img id="pokemon_img" src="https://pokeres.bastionbot.org/images/pokemon/1.png">
+        </div>
+        <div class="card_info">
+            <p>#<span id="poke_id">1</span> <span id="poke_name">Bulbasaur</span></p>
+        </div>
+    </div>
+</body>
+</html>
